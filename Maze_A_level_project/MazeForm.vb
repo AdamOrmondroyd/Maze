@@ -250,19 +250,19 @@
     'Instructions
 
     Private Sub SelectingStartAndGoalToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SelectingStartAndGoalToolStripMenuItem.Click
-        MessageBox.Show("Selecting start coordinate:" & vbNewLine & "Hover the mouse over the desired coordinate and left click." & vbNewLine & vbNewLine & "Selecting goal coordinate:" & vbNewLine & "Hover the mouse over the desired coordinate and right click.")
+        MessageBox.Show("Selecting start coordinate:" & vbCrLf & "Hover the mouse over the desired coordinate and left click." & vbCrLf & vbCrLf & "Selecting goal coordinate:" & vbCrLf & "Hover the mouse over the desired coordinate and right click.")
     End Sub
 
     Private Sub CreatingTheMazeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CreatingTheMazeToolStripMenuItem.Click
-        MessageBox.Show("Generating the maze:" & vbNewLine & "First select the size of the maze using the text box." & vbNewLine & "Select the Prims's button to use Prim's algorithm, or select the recursive division button to use recursive division." & vbNewLine & "Select the tickbox if you wish to watch the maze generate." & vbNewLine & "Finally click the generate button to start generation.")
+        MessageBox.Show("Generating the maze:" & vbCrLf & "First select the size of the maze using the text box." & vbCrLf & "Select the Prims's button to use Prim's algorithm, or select the recursive division button to use recursive division." & vbCrLf & "Select the tickbox if you wish to watch the maze generate." & vbCrLf & "Finally click the generate button to start generation.")
     End Sub
 
     Private Sub SolvingToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SolvingToolStripMenuItem.Click
-        MessageBox.Show("Getting the maze to solve itself:" & vbNewLine & "Select depth first to use the depth first method, or select breadth first to use the breadth first method." & vbNewLine & "Click the solve button to see the solution to the maze." & vbNewLine & "Select the tickbox to watch the maze solve.")
+        MessageBox.Show("Getting the maze to solve itself:" & vbCrLf & "Select depth first to use the depth first method, or select breadth first to use the breadth first method." & vbCrLf & "Click the solve button to see the solution to the maze." & vbCrLf & "Select the tickbox to watch the maze solve.")
     End Sub
 
     Private Sub PlayingToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PlayingToolStripMenuItem.Click
-        MessageBox.Show("Playing the maze:" & vbNewLine & "To play the maze, press the play button, then use WASD to move the box around to solve the maze.")
+        MessageBox.Show("Playing the maze:" & vbCrLf & "To play the maze, press the play button, then use WASD to move the box around to solve the maze.")
     End Sub
 
     'Changing colours
